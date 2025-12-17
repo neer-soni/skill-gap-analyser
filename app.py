@@ -15,7 +15,7 @@ import time
 # ===== CONFIGURATION =====
 # Add your Gemini API key here
 GEMINI_API_KEY = "YOUR_GEMINI_API_KEY_HERE"
-genai.configure(api_key="AIzaSyCY0gdA1Wz7AN8VGfGrDtBR7-YkBgHl9DE")
+genai.configure(api_key="YOUR_GEMINI_API_KEY_HERE")
 
 # Page Configuration
 st.set_page_config(
@@ -415,4 +415,5 @@ def main():
         display_results(st.session_state.results)
 
 if __name__ == "__main__":
+
     main()
