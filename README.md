@@ -58,5 +58,40 @@ An AI-powered technical interviewer that:
 
 1. **Clone the repo**
    ```bash
-   git clone [https://github.com/YOUR_USERNAME/skill-gap-analyser.git](https://github.com/YOUR_USERNAME/skill-gap-analyser.git)
+   git clone [(https://github.com/neer-soni/skill-gap-analyser.git)]
    cd skill-gap-analyser
+2. **Create a Virtual Environment (Recommended)**
+      ```bash
+      python -m venv venv
+      .\venv\Scripts\activate
+3. **Install Dependencies**
+   ```bash
+   pip install -r requirements.txt
+
+4. **Set up API Keys**
+   This project uses Google Gemini. You need an API key.
+
+   Get your free key from Google AI Studio.
+
+   Create a file named .env in the root directory.
+
+   Add your key like this:
+   ```plaintext
+   GOOGLE_API_KEY=your_actual_api_key_here
+
+5. **Run the Applications**
+   ```bash
+   streamlit run app.py
+## 🔮 Future Roadmap
+[ ] Integration with YouTube API for direct video course recommendations.
+
+[ ] AI Mock Interviewer (Voice Mode).
+
+[ ] Employer Dashboard for candidate matching.
+
+## 👨‍💻 Team
+NEER SONI - Full Stack & AI Logic
+
+SAGAR SINGH - Frontend & Design
+
+Built for the VIBE HACK 2.0 2025
